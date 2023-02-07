@@ -8,7 +8,7 @@ When editing a DITA map in this mode, the editor provides actions for both editi
 When you commit or save the map, all the modified topics are also saved. 
 -->
 <map>
-  <title>Growing Flowers</title>
+  <title>Growing My Flowers</title>
   <topicref href="topics/introduction.dita"/>
   <topicref href="topics/care.dita">
     <topicref href="tasks/pruning.dita"/>
