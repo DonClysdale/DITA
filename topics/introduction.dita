@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id="topic_szl_4cx_kwb">
-    <title>Introduction</title>
-    <body>
-        <p>Short Description: With just a little bit of care and preparation, any flower garden can
-            be a vibrantly colored environment.</p>
-    </body>
-</topic>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_ccw_tdx_kwb">
+    <title></title>
+    <shortdesc></shortdesc>
+    <refbody> </refbody>
+</reference>
