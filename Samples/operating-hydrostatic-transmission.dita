@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="operating-hydrostatic-transmission">
+  <title>Operating the Hydrostatic Transmission</title>
+  <taskbody>
+    <context>
+      <note type="important">
+        Avoid damage! To prevent transmission damage, stop machine motion completely before shifting the range shift lever.
+      </note>
+    </context>
+    <steps>
+      <step>
+        <cmd>Start machine engine.</cmd>
+      </step>
+      <step>
+        <cmd>Choose speed range with range shift lever (A) to match work application:</cmd>
+        <choices>
+          <choice>L – Low speed operations such as tilling hard soil, mowing long grass, or heavy hauling. Machine speed is decreased, but machine power is increased.</choice>
+          <choice>N – Neutral position. Lever must be in the N (neutral) position when starting the engine.</choice>
+          <choice>H – High speed operations such as light tilling and hauling, mowing short grass, and transport. Machine speed is increased, but machine power is decreased.</choice>
+        </choices>
+      </step>
+      <step>
+        <cmd>Depress brake pedal.</cmd>
+      </step>
+      <step>
+        <cmd>Unlock park brake.</cmd>
+      </step>
+      <step>
+        <cmd>Release brake pedal.</cmd>
+      </step>
+      <step>
+        <note>When the travel pedal is released, the transmission will automatically return to neutral.</note>
+        <cmd>Move throttle lever (B) forward until engine operates at desired speed.</cmd>
+
+      </step>
+      <step>
+        <cmd>Slowly depress pedal (C) downward to travel forward. Slowly depress pedal (D) downward to travel in reverse.</cmd>
+        <info>The farther either travel pedal is depressed, the faster the machine will travel.</info>
+      </step>
+      <step>
+        <cmd>Stop machine to change speed range.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+</task>

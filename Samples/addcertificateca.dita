@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="addcertificateca" xml:lang="en">
+  <title>Add Certificate for Canadian Customer</title>
+  <shortdesc>This is a short description of Add Certificate for Canadian Customer</shortdesc>
+  <prolog>
+    <critdates>
+      <created date="2025-01-08"/>
+      <revised modified="2025-01-09"/>
+    </critdates>
+    <change-historylist>
+      <change-item><change-organization>Avalara</change-organization><change-person><text>Don Clysdale</text></change-person><change-revisionid>1</change-revisionid><change-request-reference><change-request-system>Jira</change-request-system><change-request-id>1066</change-request-id></change-request-reference>
+        <change-completed>2025-01-09</change-completed>
+      </change-item>
+    </change-historylist>
+    <metadata>
+      <keywords>
+        <indexterm>External</indexterm>
+        <indexterm>Product guides</indexterm>
+        <indexterm>ECM Essentials</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <prereq><p>Add an exempt customer for which you want to add an exemption certificate.</p></prereq>
+    <context>
+      <p>If you need to exempt a Canadian customer from both federal GST and provincial tax, such as
+        PST, QST, or HST, add a multijurisdictional exemption certificate for the customer. Create
+        multijurisdictional certificates directly in the Avalara platform, and you can't import them
+        on a spreadsheet..</p>
+    </context>
+    <steps>
+      <stepsection><b>Steps - Section 1</b></stepsection>
+      <step>
+        <cmd>From Avalara <menucascade>
+            <uicontrol>Home</uicontrol>
+          </menucascade>, go to <menucascade>
+            <uicontrol>Exemptions</uicontrol>
+            <uicontrol>Customer Certificates</uicontrol>
+          </menucascade>.</cmd>
+      </step>
+      <step>
+        <cmd>Use the filters on the left to filter the <b>Canada</b> customer from the
+            <data>Region of customer address</data> field, and then select
+            <uicontrol>Apply</uicontrol>.</cmd>
+      </step>
+      <stepsection><b>Steps - Section 2</b></stepsection>
+      <step>
+        <cmd>From Avalara <menucascade>
+            <uicontrol>Home</uicontrol>
+          </menucascade>, go to <menucascade>
+            <uicontrol>Exemptions</uicontrol>
+            <uicontrol>Customer Certificates</uicontrol>
+          </menucascade>.</cmd>
+      </step>
+      <step>
+        <cmd>Select the region that you want from the Regions covered by this certificate list.
+          Region details appear on selecting the regions covered by the certificate. If a reason for exemption isn’t available in a specific region, it won't appear on the list.</cmd>
+        <choices>
+          <choice><option>To exempt all tax:</option>Select Canada (GST) and all provinces in which you do business.</choice>
+        </choices>
+        <substeps>
+          <substep>
+            <cmd><cmdname>To exempt all tax:</cmdname>Select Canada (GST) and all provinces in which you do business.</cmd>
+          </substep>
+          <substep>
+            <cmd><cmdname>To exempt only the federal Canada GST rate:</cmdname>Select Canada (GST).</cmd>
+          </substep>
+          <substep>
+            <cmd><cmdname>To exempt GST and HST:</cmdname>Select Canada (GST) and any of the HST provinces in which you do business: New Brunswick, Newfoundland and Labrador, Nova Scotia, Ontario, and Prince Edward Island.</cmd>
+          </substep>
+          <substep>
+            <cmd><cmdname>To exempt PST/QST but still charge GST:</cmdname>Select the provinces that you want to be exempt, but don’t select Canada (GST).</cmd>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>Select the reason that you want from the <data>Reason for the exemption</data> list.</cmd>
+        <substeps>
+          <substep>
+            <cmd>You can refer to the <xref href="#addcertificateca">exempt reason matrix</xref> for a list of valid reasons by region.</cmd>
+          </substep>
+          <substep>
+            <cmd>If you need the customer from GST and all provincial taxes, select <data>Tribal Government</data>.</cmd>
+            <info><note type="tip">Tribal Government is the only entity use code that exempts Canada (GST) tax and all
+                provincial taxes. You can select a different entity use code if your customer isn’t
+                exempt from Canada (GST), or if they’re exempt from GST but taxable at the
+                provincial level.</note></info>
+          </substep>
+        </substeps>
+      </step>
+    </steps>
+  </taskbody>
+  <related-links>
+    <link href="ReferenceTable.dita"><linktext>Sample Reference Table</linktext></link>
+  </related-links>
+</task>

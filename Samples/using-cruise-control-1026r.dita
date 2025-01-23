@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+
+<task id="using-cruise-control-1026r">
+  <title>Using Cruise Control - 1026R</title>
+  <taskbody>
+    <context>
+      <note type="caution">Avoid injury! Use cruise control only in large, open areas. Shut off before turning or when in areas with many obstacles.</note>
+    <note>The cruise control is only operational when the machine is traveling forward.</note>
+    </context>
+    <steps>
+      <step>
+        <cmd>Engaging Cruise Control:</cmd>
+        <substeps>
+          <substep>
+            <cmd>Depress forward travel pedal until desired travel speed is reached.</cmd>
+          </substep>
+          <substep>
+            <cmd>Lift cruise control lever (A) to engage.</cmd>
+          </substep>
+          <substep>
+            <cmd>Release forward travel pedal.</cmd>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>Disengaging Cruise Control:</cmd>
+        <info>The cruise control can be disengaged in one of two ways:</info>
+        <choices>
+          <choice>Depress brake pedal and push cruise control lever down.</choice>
+          <choice>Increase travel speed slightly and push cruise control lever down.</choice>
+        </choices>
+      </step>
+      <step>
+        <cmd>Adjusting Cruise Control Travel Speed:</cmd>
+        <info>To adjust travel speed:</info>
+        <choices>
+          <choice>Increase travel speed by pressing forward travel pedal until desired speed is reached.</choice>
+          <choice>Decrease travel speed by disengaging cruise control, adjusting forward travel speed as desired, and engage cruise control lever.</choice>
+         </choices>
+      </step>
+    </steps>
+  </taskbody>
+</task>
