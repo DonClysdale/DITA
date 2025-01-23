@@ -40,9 +40,15 @@
           </menucascade>.</cmd>
       </step>
       <step>
-        <cmd>Use the filters on the left to filter the <b>Canada</b> customer from the
-            <data>Region of customer address</data> field, and then select
-            <uicontrol>Apply</uicontrol>.</cmd>
+        <cmd>Use the filters on the left to filter the <b>Canada</b> customer from the <data>Region
+            of customer address</data> field, and then select <uicontrol>Apply</uicontrol>.</cmd>
+      </step>
+      <step>
+        <cmd>New Step to edit<menucascade>
+            <uicontrol>File</uicontrol>
+            <uicontrol>Open</uicontrol>
+          </menucascade>
+        </cmd>
       </step>
       <stepsection><b>Steps - Section 2</b></stepsection>
       <step>
@@ -55,37 +61,49 @@
       </step>
       <step>
         <cmd>Select the region that you want from the Regions covered by this certificate list.
-          Region details appear on selecting the regions covered by the certificate. If a reason for exemption isn’t available in a specific region, it won't appear on the list.</cmd>
+          Region details appear on selecting the regions covered by the certificate. If a reason for
+          exemption isn’t available in a specific region, it won't appear on the list.</cmd>
         <choices>
-          <choice><option>To exempt all tax:</option>Select Canada (GST) and all provinces in which you do business.</choice>
+          <choice><option>To exempt all tax:</option>Select Canada (GST) and all provinces in which
+            you do business.</choice>
         </choices>
         <substeps>
           <substep>
-            <cmd><cmdname>To exempt all tax:</cmdname>Select Canada (GST) and all provinces in which you do business.</cmd>
+            <cmd><cmdname>To exempt all tax:</cmdname>Select Canada (GST) and all provinces in which
+              you do business.</cmd>
           </substep>
           <substep>
-            <cmd><cmdname>To exempt only the federal Canada GST rate:</cmdname>Select Canada (GST).</cmd>
+            <cmd><cmdname>To exempt only the federal Canada GST rate:</cmdname>Select Canada
+              (GST).</cmd>
           </substep>
           <substep>
-            <cmd><cmdname>To exempt GST and HST:</cmdname>Select Canada (GST) and any of the HST provinces in which you do business: New Brunswick, Newfoundland and Labrador, Nova Scotia, Ontario, and Prince Edward Island.</cmd>
+            <cmd><cmdname>To exempt GST and HST:</cmdname>Select Canada (GST) and any of the HST
+              provinces in which you do business: New Brunswick, Newfoundland and Labrador, Nova
+              Scotia, Ontario, and Prince Edward Island.</cmd>
           </substep>
           <substep>
-            <cmd><cmdname>To exempt PST/QST but still charge GST:</cmdname>Select the provinces that you want to be exempt, but don’t select Canada (GST).</cmd>
+            <cmd><cmdname>To exempt PST/QST but still charge GST:</cmdname>Select the provinces that
+              you want to be exempt, but don’t select Canada (GST).</cmd>
           </substep>
         </substeps>
       </step>
       <step>
-        <cmd>Select the reason that you want from the <data>Reason for the exemption</data> list.</cmd>
+        <cmd>Select the reason that you want from the <data>Reason for the exemption</data>
+          list.</cmd>
         <substeps>
           <substep>
-            <cmd>You can refer to the <xref href="#addcertificateca">exempt reason matrix</xref> for a list of valid reasons by region.</cmd>
+            <cmd>You can refer to the <xref href="#addcertificateca">exempt reason matrix</xref> for
+              a list of valid reasons by region.</cmd>
           </substep>
           <substep>
-            <cmd>If you need the customer from GST and all provincial taxes, select <data>Tribal Government</data>.</cmd>
-            <info><note type="tip">Tribal Government is the only entity use code that exempts Canada (GST) tax and all
-                provincial taxes. You can select a different entity use code if your customer isn’t
-                exempt from Canada (GST), or if they’re exempt from GST but taxable at the
-                provincial level.</note></info>
+            <cmd>If you need the customer from GST and all provincial taxes, select <data>Tribal
+                Government</data>.</cmd>
+            <info>
+              <note type="tip">Tribal Government is the only entity use code that exempts Canada
+                (GST) tax and all provincial taxes. You can select a different entity use code if
+                your customer isn’t exempt from Canada (GST), or if they’re exempt from GST but
+                taxable at the provincial level.</note>
+            </info>
           </substep>
         </substeps>
       </step>
@@ -95,3 +113,4 @@
     <link href="ReferenceTable.dita"><linktext>Sample Reference Table</linktext></link>
   </related-links>
 </task>
+<?oxy_options track_changes="on"?>
